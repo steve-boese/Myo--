@@ -1,0 +1,52 @@
+#cal_page {
+  margin:10px 0 0 0;
+}
+
+#cal_page label {
+  color:#383838;
+  font-size:16px;
+  font-weight:bold;
+  margin-right:15px;
+}
+
+#cal_page select,
+#cal_page option {
+  font-size:16px;
+}
+
+#cal_page label,
+#cal_page select {
+  margin-bottom:30px;
+}
+
+#cal_page h2 {
+  margin-bottom:12px;
+}
+
+#cal_page div.one_event {
+  margin-bottom:24px;
+}
+
+#cal_page h3 {
+  color:#868487;
+  text-transform:none;
+  font-style:italic;
+  margin:0 0 6px 0;
+}
+
+#cal_page h4 {
+  color:#2C2D2C;
+  margin:0 0 6px 0;
+}
+
+#cal_page h4.loc {
+  color:#858585;
+  font-weight:normal;
+  margin:0 0 6px 0;
+}
+
+#cal_page p {
+  margin:0;
+  color:#858585;
+}
+

@@ -1,0 +1,316 @@
+#update_cust.edit_item input,
+#update_cust.edit_item select,
+#update_cust.edit_item textarea {
+  background:#ffd;
+  border:1px solid #bbb;
+  margin:0;
+  padding:0;
+}
+
+#update_cust.edit_item h2,
+#update_cars.edit_item h2,
+#update_repairs.edit_item h2 {
+  width:700px;
+}
+
+#update_cust.edit_item textarea,
+#update_repairs.edit_item textarea,
+#update_repairs.edit_item select,
+#update_repairs.edit_item option {
+  line-height:1.2em;
+}
+
+#update_cust.edit_item .buttons button,
+#update_cars.edit_item .buttons button,
+#update_repairs.edit_item .buttons button {
+  padding:3px 8px;
+  font-size:12pt;
+  margin-right:15px;
+}
+
+#update_repairs.edit_item .buttons {
+  background:#fff;
+  text-align:right;
+  border:0;
+}
+
+.edit_item .field_input,
+.edit_item .buttons {
+  padding-left:100px;
+}
+
+.edit_item .buttons {
+  margin-bottom:30px;
+}
+
+.edit_item .field_input label,
+.edit_item .date_block label {
+  display:block;
+  float:left;
+  margin-left:-95px;
+  width:90px;
+  text-align:right;
+}
+
+.edit_item .field_input h3 {
+  display:block;
+  float:left;
+  margin-left:-145px;
+  width:140px;
+  font-size:14pt;
+  font-weight:bold;
+}
+
+#update_cust.edit_item .block1 {
+  float:left;
+  width:240px;
+}
+
+#update_cust.edit_item .block2 {
+  float:left;
+  padding-left:65px;
+  width:280px;
+}
+
+#update_cust.edit_item .block3 {
+  width:680px;
+}
+
+#update_cars.edit_item {
+  margin-top:30px;
+}
+
+#update_cars.edit_item input,
+#update_repairs.edit_item input {
+  border:0;
+  margin:0;
+  padding:0;
+  background:#ffd;
+}
+
+#update_cars input.model_year {
+  width:32px;
+}
+
+#update_cars input.make {
+  width:75px;
+}
+
+#update_cars input.model {
+  width:200px;
+}
+
+#update_cars input.color {
+  width:55px;
+}
+
+#update_cars input.plate {
+  width:55px;
+}
+
+#update_cars input.car_no {
+  width:50px;
+}
+
+#update_cars input.vin {
+  width:132px;
+}
+
+#update_repairs input.date_completed {
+  width:70px;
+}
+
+#update_repairs input.car_id,
+#update_repairs select.car_id {
+  width:200px;
+}
+
+#update_repairs input.cost {
+  width:70px;
+  text-align:right;
+}
+
+#update_repairs input.invoice {
+  width:70px;
+  text-align:right;
+}
+
+#update_repairs input.odometer {
+  width:70px;
+  text-align:right;
+}
+
+#update_repairs input.odometer_note {
+  width:80px;
+}
+
+#update_repairs input.car_no {
+  width:70px;
+}
+
+#update_repairs a.delete_repair {
+  display:block;
+  position:absolute;
+  text-decoration:none;
+  padding:0 3px;
+  margin:6px 20px;
+  font-size:7pt;
+  background:#fff;
+  border:1px solid #88f;
+}
+
+#update_repairs textarea {
+  margin-left:73px;
+  width:570px;
+}
+
+#update_cars input.colhead,
+#update_repairs input.colhead {
+  background:#fff;
+  font-weight:bold;
+}
+
+#update_cars input.repair_dates {
+  background:#fff;
+  width:100px;
+}
+
+#update_cars .field_input div,
+#update_repairs .field_input div {
+  padding:0 0 0 0;
+  background:#ccc;
+  border-left:3px solid #ccc;
+  width:650px;
+}
+
+#update_cars .field_input div {
+  position:relative;
+}
+
+#update_cars .field_input div.last,
+#update_repairs .field_input div.last {
+  border-bottom:2px solid #ccc;
+}
+
+#update_cars .field_input div#car_header,
+#update_repairs .field_input div#repair_header {
+  background:#fff;
+  border:0;
+  padding:0;
+  border-bottom:2px solid #ccc;
+  border-left:0;
+}
+
+.edit_item a.skip_to {
+  display:block;
+  float:left;
+  padding:3px 15px;
+}
+
+#update_cars a.car_info {
+  background:#fff;
+  padding:0 3px;
+  text-decoration:none;
+  font-size:7.5pt;
+}
+
+#update_cars a.car_info .hover {
+  display:none;
+}
+
+#update_cars a.car_info:hover .hover {
+  font-size:10pt;
+  color:#663;
+  display:block;
+  position:absolute;
+  right:0;
+  margin-right:30px;
+  width:220px;
+  background:#eef;
+  z-index:5;
+  border:1px solid #888;
+}
+
+#update_cars a.car_info .hover .title,
+#update_cars a.car_info .hover .block {
+  display:block;
+}
+
+#update_cars a.car_info .hover .title {
+  text-align:center;
+  padding:5px;
+}
+
+#update_cars a.car_info .hover .block {
+  padding:2px 5px 2px 80px;
+}
+
+#update_cars a.car_info .hover .title {
+  font-weight:bold;
+  border-bottom:1px solid #888;
+}
+
+#update_cars a.car_info .hover .label {
+  display:block;
+  width:70px;
+  float:left;
+  margin-left:-75px;
+  text-align:right;
+}
+
+#update_cars h3 a.skip_to {
+  display:block;
+  font-size:9pt;
+  font-weight:normal;
+  padding:20px 0 0 30px;
+}
+
+#search_form {
+}
+
+#search_form h3 {
+  width:100px;
+  float:left;
+}
+
+#search_form div {
+  float:left;
+  padding: 18px 20px 18px 70px;
+}
+
+#add_customer {
+  padding:18px 0;
+}
+
+#add_customer button {
+  margin-left:-70px;
+}
+
+#search_form label {
+  display:block;
+  width:65px;
+  margin-left:-70px;
+  float:left;
+  text-align:right;
+}
+
+#search_form input {
+  width:150px;
+}
+
+#search_form button {
+  margin-left:20px;
+}
+
+#repair_message {
+  position:relative;
+  margin:-75px 100px 10px 350px;
+  padding:5px;
+  background:#ddd; 
+  border:1px solid #aaa;
+}
+
+#repair_message p {
+  margin:0;
+  font-size:8pt;
+}

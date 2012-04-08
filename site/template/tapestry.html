@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- pageInfo:title -->
+<!-- pageInfo:meta_title -->
+<!-- pageInfo:meta_description -->
+<!-- pageInfo:meta_keywords -->
+<!-- pageInfo:stylesheets -->
+<!-- pageInfo:scripts -->
+<!-- pageInfo:favicon -->
+</head>
+
+<body><?php adminMenu(); ?>
+
+<div id="wrapper">
+
+  <div id="header">
+    <h1>
+      <img src="/site/image/layout/tapestry-logo-400.png" alt=
+        "Tapestry Management, LLC" />
+    </h1>
+    <?php site_login_link(); ?>
+  </div>
+  <div id="menu">
+    <? require(ABSPATH."plugin/menu/top_menu.php"); ?>
+  </div>
+
+  <div id="middle">
+    <div id="container">
+      <?php printHeader(); ?>
+      <div id="content">
+        <?php printContent(); ?>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <?=SITE_FOOTER; ?>
+  </div>
+
+</div>
+
+
+</body>
+</html>

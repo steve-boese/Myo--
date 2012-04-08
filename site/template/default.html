@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet"    type="text/css"     href="/site/style/content.css" />
+    <link rel="stylesheet"    type="text/css"     href="/site/style/site.css" />
+    <link rel="stylesheet"    type="text/css"     href="/site/style/form.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/site/image/layout/favicon.ico" />
+    <script type="text/javascript" src="/admin/script/site.js"></script>
+    <?php printMeta(); ?>
+  </head>
+  <body><?php adminMenu(); ?>
+  
+    <div id='layout'>
+      <div id='head'>
+        <img src='/site/image/layout/logo.gif' alt='The Myo! CMS, an organic, free CMS' /><img
+             src='/site/image/layout/header.jpg' alt='' />
+      </div>
+      <table>
+        <tr>
+          <td id='zero_top'>
+          </td>
+          <td id='page_content' rowspan='2'>
+            <?php printContent(); ?>
+          </td>
+        </tr>
+        <tr>
+          <td id='menu'>
+            <?php require(ABSPATH . "plugin/menu/menu.php"); ?>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id='foot'>
+      <?=SITE_FOOTER; ?>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+/*
+    Stylesheet for horizontal table-based menu with overlapping tabs
+*/
+
+#menu {
+  padding-left: 2px;
+  height: 33px;
+  margin:0;
+}
+
+#menu table {
+  width:100%;
+}
+
+#menu a,
+#footer,
+#footer a {
+   color:black;
+   font-family:"Times New Roman",serif;
+   text-decoration: none;
+}
+
+#menu a:hover,
+#footer a:hover {
+   text-decoration: underline;
+}
+
+#menu td {
+   height:32px;
+}
+
+#menu td.left,
+#menu td.right {
+   width:37px;
+}
+
+#menu td.middle {
+   width:47px;
+}
+#menu td.middle.left_on,
+#menu td.middle.right_on {
+   width:48px;
+}
+
+#menu td.link {
+   background: url(/site/image/layout/menu-sliver-off.png) repeat-x bottom;
+   text-align:center;
+}
+#menu td.link.on {
+   background: url(/site/image/layout/menu-sliver-on.png) repeat-x bottom;
+}
+
+#menu td.left {
+   background: url(/site/image/layout/menu-left-off.png) bottom no-repeat;
+}
+
+#menu td.left.left_on {
+   background: url(/site/image/layout/menu-left-on.png) bottom no-repeat;
+}
+
+#menu td.middle {
+   background: url(/site/image/layout/menu-middle-off.png) bottom no-repeat;
+}
+
+#menu td.middle.right_on {
+   background: url(/site/image/layout/menu-right-middle-on.png) bottom no-repeat;
+}
+
+#menu td.middle.left_on {
+   background: url(/site/image/layout/menu-left-middle-on.png) bottom no-repeat;
+}
+
+#menu td.right {
+   background: url(/site/image/layout/menu-right-off.png) bottom no-repeat;
+}
+
+#menu td.right.left_on {
+   background: url(/site/image/layout/menu-right-on.png) bottom no-repeat;
+}
+
+#menu_underscore {
+  background: url(/site/image/layout/body-top.png) left no-repeat;
+  height:7px;
+  margin:0 0 0 0;
+  padding:0;
+}
+
+#menu_underscore img {
+  display:block;
+  padding-left:3px;
+}

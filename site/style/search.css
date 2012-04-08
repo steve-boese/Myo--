@@ -1,0 +1,49 @@
+#search_form div {
+  border-left:95px solid transparent;
+  margin:25px 0;
+  padding-top:10px;
+}
+
+#search_form label {
+  display:block;
+  margin-left:-95px;
+  float:left;
+  width:90px;
+  color:#575757;
+  font-weight:bold;
+  font-size:16px;
+}
+
+#search_form input {
+  margin:-5px 0 0 0;
+  float:left;
+  height:17px;
+}
+
+#search_form input.button {
+  float:none;
+  height:auto;
+}
+
+#search_results ul,
+#search_results li {
+  margin:0;
+  padding:0;
+}
+
+#search_results ul {
+  border-bottom:2px dotted #eee;
+  width:395px;
+}
+
+#search_results a {
+  display:block;
+  padding:8px 16px;
+  text-decoration:none;
+  border:2px dotted #eee;
+  border-bottom:0;
+}
+
+#search_results a:hover {
+  background:#eee;
+}

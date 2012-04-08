@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- pageInfo:title -->
+<!-- pageInfo:meta_title -->
+<!-- pageInfo:meta_description -->
+<!-- pageInfo:meta_keywords -->
+<!-- pageInfo:stylesheets -->
+<!-- pageInfo:scripts -->
+<!-- pageInfo:favicon -->
+</head>
+
+<body>
+
+  <div id="top_bar">
+    &nbsp;
+  </div>
+
+  <div id="wrapper">
+
+    <div id="header">
+      <h1>
+        <img src="/site/image/layout/logotype.png" alt="Tabor Group Landscape" />
+      </h1>
+    </div>
+
+    <div id="middle">
+      <div id="container">
+        <div id="content">
+          <?php printContent(); ?>
+        </div>
+      </div>
+
+      <div class="sidebar" id="sideLeft">
+        <div id="menu">
+          <a href="/." class="logo"><img src="/site/image/layout/logomark.gif" alt="" /></a>
+          <?php require(ABSPATH . "plugin/menu/menu.php"); ?>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <?=SITE_FOOTER; ?>
+  </div>
+
+  <?php adminMenu(); ?>
+</body>
+</html>

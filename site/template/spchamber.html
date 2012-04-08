@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- pageInfo:title -->
+<!-- pageInfo:meta_title -->
+<!-- pageInfo:meta_description -->
+<!-- pageInfo:meta_keywords -->
+<!-- pageInfo:stylesheets -->
+<!-- pageInfo:scripts -->
+<!-- pageInfo:favicon -->
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css' />
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29670427-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+
+<body><?php adminMenu(); ?><?=sessionInfo();?>
+
+<div id="wrapper">
+
+  <div id="header">
+    <h1>
+      <span class="title">St. Peter Minnesota Area Chamber of Commerce</span>
+      <a href="/.">
+        <img src="/site/image/layout/st-peter-logo.png"/>
+      </a>
+    </h1>
+    <div id="search_bar">
+      <form method="post" action="/search">
+        <div>
+          <input type="image" src="/site/image/layout/search-button.jpg" alt="" class="button" />
+          <input name="search_box" id="search_box" style="width:200px" />
+          <label for="search_box">SEARCH</label>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="middle">
+    <div id="container">
+      <div id="content">
+        <img alt="" src="<?=$GLOBALS['pageInfo']['header_photo'];?>" id="header_photo" />
+        <?php printHeadSlashSubhead(); ?>
+        <?php printContent(); ?>
+      </div>
+    </div>
+    
+    <div class="sidebar" id="sideLeft">
+      <div id="menu">
+        <?php require(ABSPATH . "plugin/menu/menu_indented.php"); ?>
+        <div id="org_id">
+          <h1>
+            Saint Peter Chamber<br/>
+            of Commerce
+          </h1>
+          <p>
+            101 South Front Street<br/>
+            Saint Peter, MN 56082<br/>
+            507.934.3400<br/>
+            <a href="mailto:spchamb@hickorytech.net">spchamb@hickorytech.net</a><br/>
+            Open: 8:00-5:00p: Monday-Friday
+          </p>
+          <div class="links">
+            <a href="http://www.facebook.com/pages/St-Peter-Area-Chamber-of-Commerce/256584607755802"><img src="/site/image/layout/facebook-icon.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <img alt='' src='/site/image/layout/city-emblem.png' />
+    <div class="text"><?=SITE_FOOTER; ?></div>
+  </div>
+
+</div>
+
+
+</body>
+</html>

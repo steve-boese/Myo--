@@ -1,0 +1,23 @@
+table.admin_menu {
+  width:100%;
+}
+
+.admin_menu td {
+  vertical-align:middle;
+  background:#fff;
+  padding:0;
+}
+
+.admin_menu td a {
+  color: #000f80;
+  text-decoration:none;
+  font-size: 10pt;
+  padding-left: 7px;
+  padding-right: 7px;
+  background:transparent;
+}
+
+.admin_menu td a:hover {
+  text-decoration:underline;
+}
+

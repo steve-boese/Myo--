@@ -1,0 +1,39 @@
+form#login {
+  display:block;
+  border-left:100px solid transparent;
+  margin-left:-115px;
+}
+
+#login h3 {
+  margin:65px 0 20px -260px;
+}
+
+#login label {
+  color:#715748;
+  float:left;
+  display:block;
+  margin-left:-100px;
+  width:95px;
+  padding-top:4px;
+}
+
+#login input#username,
+#login input#password,
+#login input#password_repeat {
+  border:0;
+  margin-bottom:8px;
+  height:25px;
+}
+
+#login.edit_item .buttons {
+  clear:both;
+  padding:0;
+}
+
+#login .buttons input {
+  font-size:15px;
+}
+
+#footer {
+ margin-top:40px; 
+}

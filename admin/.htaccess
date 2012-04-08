@@ -1,0 +1,8 @@
+# Redirect all /admin/ requests to /admin/index.php
+
+RewriteEngine   On
+
+#RewriteCond %{HTTP_HOST} !^www\.stpeterchamber\.com$
+#RewriteRule ^.*$ http://www.stpeterchamber.com%{REQUEST_URI} [R=301,L]
+
+RewriteRule ^.*$ index.php [L]

@@ -1,0 +1,134 @@
+#prop_list {
+  font-size:16px;
+  color:#51332B;
+  line-height:20px;
+}
+
+#prop_list h2 {
+  color:51332B;
+  text-transform:uppercase;
+  font-weight:normal;
+  margin:0 0 15px 0;
+}
+
+#prop_list .one_prop {
+  border-bottom:2px dotted #51332B;
+  margin:0 0 25px 0;
+}
+
+#prop_list .one_prop img {
+  float:right;
+  border:0;
+  margin:0 0 10px 10px;
+}
+
+#prop_sum  h3 a,
+#prop_sum  h3 a:link,
+#prop_sum  h3 a:visited,
+#prop_sum  h3 a:hover,
+#prop_sum  h3 a:active  {
+  font-size:16px;
+  font-weight:bold;
+  color:#6F1400;
+}
+
+#prop_list h3 a:hover,
+#prop_sum  h3 a:hover {
+  text-decoration:underline;
+}
+
+#prop_list .one_prop p,
+#prop_list .one_prop li {
+  font-size:16px;
+  line-height:1.3em;
+}
+
+#prop_list .one_prop p,
+#prop_list .one_prop ul {
+  margin:0 0 8px 0;
+  padding:0;
+}
+
+#prop_list .one_prop ul {
+  margin-left:13px;
+}
+
+#prop_list .one_prop li {
+padding:0;
+}
+
+#prop_list .one_prop .address_block {
+  margin:0 0 24px 0;
+}
+
+#prop_list .one_prop a,
+#prop_list .one_prop a:link,
+#prop_list .one_prop a:visited,
+#prop_list .one_prop a:hover,
+#prop_list .one_prop a:active {
+  color:#51332B;
+  text-decoration:none;
+}
+
+#prop_list .one_prop a:hover {
+  text-decoration:underline;
+}
+
+#prop_list .one_prop a.loc,
+#prop_list .one_prop a.loc:link,
+#prop_list .one_prop a.loc:visited,
+#prop_list .one_prop a.loc:hover,
+#prop_list .one_prop a.loc:active {
+  color:#BF2F1B;
+  text-decoration:underline;
+}
+
+#prop_list .one_prop a.loc:hover {
+  text-decoration:none;
+}
+
+table#prop_sum {
+  width:100%;
+}
+
+#prop_sum td {
+  width:47%;
+  padding-right:8px;
+}
+
+#prop_sum img {
+  width:160px;
+}
+
+#prop_sum .address_block {
+}
+
+#prop_sum .loc_cat {
+  clear:right;
+  background:#EAC7A1;
+  padding:6px 0 6px;
+  text-align:center;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top:20px;
+}
+
+#prop_sum .one_prop {
+  border:2px solid #F0EDDA;
+  padding:2px;
+  cursor:pointer;
+  margin:0;
+}
+
+#prop_sum .one_prop:after {
+  content:'';
+  clear:both;
+  display:block;
+  height:1px;
+}
+
+#prop_sum .one_prop:hover {
+  background:#ddd;
+  background:#E8D0B7;
+  background:#E5D3C0;
+}

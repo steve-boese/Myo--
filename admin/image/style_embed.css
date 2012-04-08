@@ -1,0 +1,425 @@
+#wrapper {
+  width:1000px;
+}
+
+#content {
+  width:850px;
+}
+
+#middle {
+  height:auto;
+  min-height: 807px;
+}
+
+#admin_menu ul {
+  border-top:1px solid #ccc;
+  border-left:1px solid #ccc;
+}
+
+td#head {
+  display:none;
+}
+
+td#admin_menu {
+  width:150px;
+}
+
+#admin_menu a {
+   display: block;
+   padding: 6px 0 6px 15px;
+   font-family: sans-serif;
+   font-size: 11pt;
+   color: #000000;
+   text-decoration: none;
+   font-weight: normal;
+   border-right:1px solid #ccc;
+   border-bottom:1px solid #ccc;
+}
+
+#admin_menu a:hover {
+   background:#bbe;
+}
+
+#admin_menu ul {
+  list-style-type:none;
+  text-align:left;
+  padding:0;
+  margin:0;
+}
+
+#admin_menu li {
+  padding:0;
+  margin:0;
+}
+
+#footer td {
+  height:25px;
+  color: #555555;
+  font-size: 8pt;
+  vertical-align:bottom;
+  padding-bottom:5px;
+  display:none;
+}
+
+#footer img {
+  float:left;
+}
+
+#admin_content table.edit_list {
+  background-color:#dde;
+  border-collapse:separate;
+  border-spacing:1px;
+  margin:0 20px;
+}
+
+.edit_list td,
+.edit_list th {
+  background-color:#F0EDDA;;
+  vertical-align:middle;
+  text-align:left;
+  padding:5px 2px;
+}
+
+#admin_content table.edit_list.properties td {
+  vertical-align:top;
+}
+
+#admin_content table.edit_list.properties td ul,
+#admin_content table.edit_list.properties td li {
+  margin:0;
+  padding:0;
+}
+
+#admin_content table.edit_list.properties td li {
+  margin-left:20px;
+}
+
+#admin_content table.edit_list.properties td.address a {
+  margin-top:5px;
+}
+
+#admin_content .edit_list.cat_links td,
+#admin_content .edit_list.cat_links th {
+  vertical-align:top;
+}
+
+#admin_content .edit_list.cat_links a {
+  display:inline;
+  background:#F0EDDA;;
+  text-decoration:underline;
+  padding:0;
+  border:0;
+}
+
+#admin_content .edit_list.cat_links ul {
+  padding:0;
+  margin:0 0 0 15px;
+}
+
+#admin_content table.pages {
+  width:700px;
+}
+
+#admin_content table.pages td.buttons {
+  width:120px;
+  text-align:center;
+}
+
+#admin_content #home {
+  margin:15px 90px;
+  padding:15px;
+  background:#dde;
+}
+
+#admin_content .edit_list td a {
+  display:block;
+  text-decoration:none;
+  background:#eee;
+  border:1px solid #cce;
+  padding:1px 3px;
+  margin:-4px 2px;
+}
+
+#admin_content .edit_list td a:hover {
+  background:#ffe;
+}
+
+#admin_content .edit_list a.btn,
+#admin_content .edit_list.cat_list a.btn {
+  display:inline;
+  text-decoration:none;
+  background:#eee;
+  border:1px solid #88a;
+  margin:2px;
+  padding:1px 3px;
+  line-height:1.5em;
+  color:#000;
+}
+
+a.btn:hover,
+#admin_content .edit_list.cat_list a.btn {
+  background:#ffe;
+}
+
+table.emails .opt_out td,
+span.opt_out {
+  background:#aea;
+}
+
+table.emails .deleted td,
+span.deleted {
+  background:#eea;
+}
+
+table.e_news td {
+  text-align:center;
+  line-height:1.5em;
+  padding:5px;
+}
+
+table.e_news .queued td,
+span.queued {
+  background:#bbfcb4;
+}
+
+table.e_news td form {
+  margin:3px;
+  background:#eee;
+  padding:2px;
+  border:1px solid #ccc;
+}
+
+table.e_news td.dates div {
+  padding-left:70px;
+  text-align:left;
+}
+
+table.e_news td.dates label {
+  display:block;
+  width:65px;
+  margin-left:-70px;
+  float:left;
+  text-align:right;
+}
+
+.admin_menu a {
+   color: #000f80;
+   font-size: 12pt;
+   padding-left: 7pt; padding-right: 7px;
+}
+
+#head h1 {
+  display:none;
+}
+
+#head h2 {
+  color:#000E80;
+  font-size:14pt;
+  float:right;
+  margin:65px 75px 0 0;
+}
+
+#head #site_info {
+  color:#000E80;
+  width:250px;
+  text-align:center;
+  margin:0 0 0 10px;
+}
+
+#site_info h3 {
+  font-size:12pt;
+  margin:20px 0 10px 0;
+}
+
+#site_info h4 {
+  font-size:10pt;
+  margin:0;
+}
+
+input.inputerror,
+select.inputerror,
+textarea.inputerror {
+  background:yellow;
+  border:1px solid red;
+}
+
+div.warning {
+  font-weight: 900;
+  color: #FFFFFF;
+  padding: 4px;
+  background-color: #B00000;
+  text-align: center;
+  margin-bottom:8px;
+}
+
+.edit_item,
+.edit_item input,
+.edit_item option,
+.edit_item label,
+.edit_item textarea {
+  font-family: arial, helvetica, sans-serif;
+  font-weight:normal;
+  font-size:9pt;
+  line-height:1.35em;
+}
+
+.edit_item .field_input {
+  padding-left:200px;
+}
+
+.edit_item .field_input {
+  padding-left:150px;
+}
+
+.edit_item .field_input div {
+  text-align:left;
+  padding:3px
+}
+
+.edit_item .field_input label,
+.edit_item .date_block label {
+  display:block;
+  float:left;
+  margin-left:-195px;
+  width:190px;
+  text-align:right;
+}
+
+.edit_item .field_input label.radio {
+  display:inline;
+  margin:0;
+  float:none;
+}
+
+.edit_item ul.date_block {
+  background:#E6E6F2;
+  list-style-type:none;
+  text-align:left;
+  padding-left:200px;
+}
+
+.edit_item .date_block li {
+  margin:0;
+  padding:3px;
+}
+
+.edit_item .buttons {
+  padding:35px 0 15px 150px;
+  text-align:left;
+}
+
+.edit_item .buttons input {
+  margin-right:10px;
+}
+
+.arrows a.btn {
+  display:block;
+  float:left;
+  margin:0;
+}
+
+.arrows a.btn img {
+  border:0;
+}
+
+.arrows .blank_arrow {
+  float:left;
+}
+
+tr.dupe td {
+  background:yellow;
+}
+
+td.in_menu {
+  font-weight:bold;
+}
+
+.page_admin tr.draft td,
+.page_admin span.draft {
+  background:#ccc;
+}
+
+.page_admin tr.inactive td,
+.page_admin span.inactive {
+  background:#aaa;
+}
+
+.page_admin tr.admin td,
+.page_admin span.admin {
+  background:#cac
+}
+
+.edit_list.emails td,
+.edit_list.emails a {
+  font-size:9pt;
+}
+
+form#login .field_input,
+form#login .buttons {
+  padding-left:250px;
+}
+
+#admin_content h1 {
+  margin:0 0 0 0;
+  padding:0 0 8px 8px;
+  text-align:left;
+}
+
+.clear {
+  clear:both;
+}
+
+.categories ul,
+.categories li,
+.categories table ul,
+.categories table li {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  display:block;
+}
+
+.categories td li {
+  padding:0 0 0 20px;
+  width:100px;
+  text-align:left;
+  border:1px solid #fff;
+  clear:both;
+}
+
+.categories td li.selected {
+  background:yellow;
+  border:1px solid red;
+}
+
+.categories li input {
+  float:left;
+  margin:2px 0 0 -18px;
+}
+
+#admin_content .edit_item .categories li label {
+  font-size:8pt;
+  line-height:1.0em;
+}
+
+.categories th {
+  background:#eea;
+  border:2px solid #ccc;
+  line-height:1.2em;
+}
+
+#search {
+  float:right;
+  margin:10px 20px 0 0;
+}
+
+img#header_photo_img {
+  float:right;
+  width:270px;
+}
+
+.edit_item h2,
+#admin_content h1 {
+  font-size:14pt;
+  margin:0 0 10px 20px;
+}

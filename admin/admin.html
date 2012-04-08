@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow" />
+<!-- pageInfo:title -->
+<!-- pageInfo:meta_title -->
+<!-- pageInfo:meta_description -->
+<!-- pageInfo:meta_keywords -->
+<!-- pageInfo:stylesheets -->
+<!-- pageInfo:scripts -->
+<!-- pageInfo:favicon -->
+  </head>
+  <body>
+    <table id="admin_body">
+      <tr>
+        <td id="head" colspan="2" >
+          <ul>
+            <li class="brand">
+              <?=CMS_NAME;?> <?=CMS_VERSION;?>
+            </li>
+            <li>
+              <label>Site:</label> <?=SITE_NAME;?> <?=SITE_VERSION;?>
+            </li>
+            <li>
+              <label>Url:</label> <?=str_replace("http://","",SITE_HTTP);?>
+            </li>
+            <li>
+              <label>Logged in as:</label> <?=$_SESSION[SITE_PORT]['user_name'];?>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td id="menu">
+          <div>
+            <?php require(ABSPATH."admin/admin-menu-side.php"); ?>
+          </div>
+        </td>
+        <td id="content">
+          <?php require(ABSPATH."admin/admin.php"); ?>
+        </td>
+      </tr>
+<?=ADMIN_FOOTER;?>
+
+    </table>
+  </body>
+</html>

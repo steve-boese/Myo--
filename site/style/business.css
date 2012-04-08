@@ -1,0 +1,101 @@
+#bus_alpha ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  list-style-image:none;
+}
+
+#bus_alpha li a {
+  color:#343434;
+  float:left;
+  display:block;
+  text-decoration:none;
+  font-weight:bold;
+  padding:4px 4px;
+  border:1px solid #fff;
+}
+
+#bus_alpha li a:hover {
+  background:#ddd;
+  border:1px solid #aaa;
+}
+
+#bus_alpha li a.nolink:hover {
+  background:#fff;
+  border:1px solid #fff;
+}
+
+#bus_alpha:after {
+  content:'.';
+  display:block;
+  height:0;
+  clear:both;
+  margin-bottom:30px;
+}
+
+table#cat_list {
+  width:100%;
+}
+
+#cat_list td {
+  width:20%;
+}
+
+#cat_list td,
+#cat_list ul,
+#cat_list li {
+  padding:0;
+  margin:0;
+}
+
+#cat_list ul {
+  list-style-type:none;
+  list-style-image:none;
+}
+
+#cat_list a {
+  text-decoration:none;
+  display:block;
+  font-size:12px;
+  margin-right:3px;
+  line-height:15px;
+  border:1px solid #fff;
+  padding:0 0 3px 15px;
+  text-indent:-15px;
+}
+
+#cat_list a:hover {
+  background:#eee;
+  border:1px solid #ddd;
+}
+
+#search_form div {
+  border-left:170px solid transparent;
+  margin:25px 0;
+  padding-top:10px;
+}
+
+#search_form label {
+  display:block;
+  margin-left:-170px;
+  float:left;
+  width:165px;
+  color:#575757;
+  font-weight:bold;
+  font-size:16px;
+}
+
+#search_form input {
+  margin:-5px 0 0 0;
+  float:left;
+  height:17px;
+}
+
+#search_form input.button {
+  float:none;
+  height:auto;
+}
+
+#content .business_lstg h3 {
+  text-transform:none;
+}

@@ -1,0 +1,17 @@
+#tag_ckbox ul {
+  list-style:none;
+  text-align:left;
+  margin:0;
+  padding:0;
+}
+
+#tag_ckbox label.ckbox {
+  float:none;
+  display:inline;
+  margin:0;
+}
+
+div#tag_ckbox {
+  margin:0;
+  padding:0;
+}

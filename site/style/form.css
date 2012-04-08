@@ -1,0 +1,113 @@
+form.wysiwyg {
+  margin:0 0 0 0;
+}
+
+input.inputerror,
+select.inputerror,
+textarea.inputerror {
+  background:yellow;
+  border:1px solid red;
+}
+
+div.warning {
+  font-weight: 900;
+  color: #FFFFFF;
+  padding: 4px;
+  background-color: #B00000;
+  text-align: center;
+  margin-bottom:8px;
+}
+
+.edit_item,
+.edit_item input,
+.edit_item select,
+.edit_item option,
+.edit_item label,
+.edit_item textarea {
+  font-family: arial, helvetica, sans-serif;
+  font-weight:normal;
+  font-size:9pt;
+  line-height:1.35em;
+}
+
+.edit_item .field_input {
+  padding-left:200px;
+}
+
+.edit_item .field_input div {
+  text-align:left;
+  padding:3px
+}
+
+.edit_item .field_input label,
+.edit_item .date_block label {
+  display:block;
+  float:left;
+  margin-left:-195px;
+  width:190px;
+  text-align:right;
+}
+
+.edit_item .field_input label.radio,
+.edit_item .field_input label.checkbox {
+  display:inline;
+  margin:0;
+  float:none;
+}
+
+.edit_item .buttons {
+  padding:15px 0 0 200px;
+  text-align:left;
+}
+
+.edit_item .buttons input {
+  margin-right:10px;
+}
+
+.captcha img {
+  border:1px solid #88f;
+}
+
+#contact_form {
+  padding:10px 0;
+}
+
+#contact_form td.left {
+  width:200px;
+}
+
+#contact_form td.right {
+  width:350px;
+}
+
+#contact_form td,
+#register_form td,
+#register_form th {
+  padding:2px 10px 10px 10px;
+}
+
+.contact_thankYou {
+  font-weight: bold;
+  font-size:16pt;
+  text-align:center;
+  margin:10px 50px;
+  padding:10px;
+  background:#ddd;
+  border:1px solid #888;
+}
+
+#register_form td.left {
+  width:125px;
+}
+
+#register_form th {
+  text-align:right;
+  font-size:10pt;
+  padding-left:0;
+}
+
+#register_form th.right {
+  width:300px;
+  text-align:left;
+  padding:0 0 0 10px;
+}

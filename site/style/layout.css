@@ -1,0 +1,95 @@
+/*
+  layout.css
+
+  Style info defining the page layout
+*/
+
+body {
+  padding-top:10px;
+  width: 100%;
+  background:#50309E;
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+  height: 75px;
+  background: #AF2400;
+  color:#C6B033;
+}
+
+#header h1 img {
+  display:block;
+  float:left;
+  margin-left:0;
+  padding-right:200px;
+}
+
+#header h1 {
+  color:#C6B033;
+  font-size:16pt;
+  padding:0 50px;
+  line-height:1.0em;
+  font-weight:bold;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+  border-right: 250px solid #C6B033;
+  height: 1%;
+  position: relative;
+  background:#17A253;
+}
+#middle:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+#container {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin-right: -100%;
+}
+#content {
+  padding: 0 20px;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+  float: right;
+  margin-right: -200px;
+  width: 200px;
+  position: relative;
+  background: #C6B033;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  height: 20px;
+  background: #BFF08E;
+  margin:5px 0;
+  text-align:right;
+  padding:5px 10px;
+}
+
+#sess_info {
+  position:absolute;
+  right:200px;
+  background:#ddd;
+  border:1px solid yellow;
+}

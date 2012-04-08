@@ -1,0 +1,41 @@
+
+table#cdDiv_c1 {
+  margin:40px 125px;
+}
+
+table#cdDiv_c1 th {
+  font-size:20px;
+  line-height:28px;
+  padding-bottom:10px;
+  text-align:center;
+}
+
+table#cdDiv_c1 td {
+  text-align:center;
+  width:95px;
+}
+
+#cdDiv_c1 #cdClockDays_c1,
+#cdDiv_c1 #cdClockHours_c1,
+#cdDiv_c1 #cdClockMin_c1,
+#cdDiv_c1 #cdClockSec_c1 {
+  line-height:0.8em;
+  font-size:60px;
+}
+
+#cdDiv_c1 #cdClockDays_c1 {
+  color:#007CA0;
+}
+
+#cdDiv_c1 #cdClockHours_c1 {
+  color:#53724D;
+}
+
+#cdDiv_c1 #cdClockMin_c1 {
+  color:#B5A73D;
+}
+
+#cdDiv_c1 #cdClockSec_c1 {
+  color:#6E6F71;
+}
+

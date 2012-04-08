@@ -1,0 +1,29 @@
+td#content {
+  text-align:center;
+}
+
+#search_count {
+  clear:both;
+  text-align:left;
+  padding:0 0 20px 105px;
+}
+
+table.search_results {
+  margin:0 auto;
+  background:#ccf;
+  border-collapse:separate;
+  text-align:left;
+}
+
+.search_results th {
+  background:#ffe;
+  text-align:center;
+  width:270px;
+}
+
+
+.search_results td {
+  background:#fff;
+  padding:5px;
+}
+
