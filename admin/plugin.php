@@ -6,7 +6,7 @@
 
   if (count($_POST) > 0) {
     db_update($table,$_URL[3],$_URL[4]);
-    header("Location: /admin/{$_URL[2]}");
+    header("Location: ".SITE_HTTP."/admin/{$_URL[2]}");
     
   } else if (isset($_URL[3]) && !in_array($_URL[3],array('','list'))) {
     item_form($table,$_URL[2],$_URL[3],$_URL[4]);

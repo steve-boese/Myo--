@@ -1,5 +1,5 @@
 <?php
-  //require(ABSPATH . 'plugin/spchamber/functions.php');
+  require(ABSPATH . 'plugin/spchamber/functions.php');
 
   global $_URL;
 
@@ -705,6 +705,8 @@
 
     $GLOBALS['next_page'] = SITE_HTTP.'/'.$page->file_name;
     
+    if ($page->file_name == '.')
+      $page->file_name = '';
     update_site_content($page->file_name,"content",$page->file_name);
 
   }

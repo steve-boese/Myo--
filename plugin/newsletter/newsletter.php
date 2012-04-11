@@ -494,7 +494,7 @@
 
     $mail->Body       = $html;
 
-    $h2t              =& new html2text($html);
+    $h2t              = new html2text($html);
     $mail->AltBody    = $h2t->get_text();
     if (!$mail->Send())
       exit("<br /><br />Sending of test email to {$_POST['email']} failed.");

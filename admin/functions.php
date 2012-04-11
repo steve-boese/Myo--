@@ -165,8 +165,8 @@
   }
 
   function valid_email($theAddy) {
-    $regex = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$";
-    if (eregi($regex,$theAddy))
+    $regex = "/^([a-z0-9\\+_\\-]+)(\\.[a-z0-9\\+_\\-]+)*@([a-z0-9\\-]+\\.)+[a-z]{2,6}$/ix";
+    if (preg_match($regex,$theAddy))
       return $theAddy;
     else
       return false;

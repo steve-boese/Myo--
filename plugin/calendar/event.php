@@ -1,4 +1,9 @@
 <?php
+  /*  Event plug-in
+  
+      Migration not yet complete.
+  */
+  
   global $_URL;
 
   $table = 'event';
@@ -112,56 +117,6 @@
 
     $option_code = "
               <option value=\"%s\" %s>%s</option>";
-
-    $groups = do_query("
-      select distinct
-        group_name
-      from
-        $table
-      order by
-        group_name");
-
-    $group_opts = sprintf($option_code,'','',' &mdash; Select &mdash;');
-    while ($group = $groups->fetch_object())
-      $group_opts .= sprintf($option_code,form_v($group->group_name),
-            (($group->group_name == $item['group_name']) ? 'selected="selected"' : ''),
-            form_v($group->group_name));
-
-    $positions = do_query("
-      select distinct
-        position
-      from
-        $table
-      order by
-        position");
-
-    $position_opts = sprintf($option_code,'','',' &mdash; Select &mdash;');
-    while ($position = $positions->fetch_object())
-      $position_opts .= sprintf($option_code,form_v($position->position_name),
-            (($position->position == $item['position']) ? 'selected="selected"' : ''),
-            form_v($position->position));
-
-    if ($item['opted_out_ip'] > 0)
-      $ip['opted_out'] = 'from IP: '.$item['o_o_ip'];
-    if ($item['register_ip'] > 0)
-      $ip['created'] = 'from IP: '.$item['o_i_ip'];
-
-    $date_code = "
-          <li>
-            <label>
-              %s:
-            </label>
-            %s %s
-          </li>";
-    $date_block = array(
-        "created"    => "Created",
-        "updated"    => "Updated",
-        "deleted"    => "Deleted");
-    foreach ($date_block as $fld=>$label) {
-      if (is_dbdate($item[$fld]))
-        $date_data .= sprintf($date_code,$label,dbdate_show($item[$fld],true),$ip[$fld]);
-    }
-    if (!isset($date_data)) $date_data = sprintf($date_code,'&nbsp;','&nbsp;','&nbsp;');
 
     form_v($item);
     $tbi = 1;

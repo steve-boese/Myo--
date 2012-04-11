@@ -14,19 +14,6 @@
   <script type="text/javascript" src="/site/script/countdown.js" ></script>
   <link rel="shortcut icon" href="/site/image/layout/st-peter-chamber.ico" type="image/x-icon" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css' />
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-29670427-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
 </head>
 <body>
 <div id="wrapper">

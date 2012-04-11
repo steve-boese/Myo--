@@ -26,7 +26,6 @@
 
     list($title,$items) = retrieve_item_list($table,$parms);
 
-    //$search_for = str_replace('+',' ',$parms['search']);
     $search_for = str_replace(array('+','"'),array(' ','&quot;'),urldecode($parms['search']));
 ?>
       <div id="search">
@@ -143,7 +142,6 @@
 }
 
   function retrieve_item_list($table,$parms) {
-    $GLOBALS['query_debug'] = true;
 
     if (isset($parms['search'])) {
       $search_for = str_replace('+',' ',$parms['search']);

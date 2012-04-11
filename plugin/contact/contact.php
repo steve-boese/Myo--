@@ -86,7 +86,7 @@ function send_Email() {
   </body>
 </html>";
 
-  $h2t =& new html2text($msgBody);
+  $h2t  = new html2text($msgBody);
 
   $mail = new PHPMailer();
 
